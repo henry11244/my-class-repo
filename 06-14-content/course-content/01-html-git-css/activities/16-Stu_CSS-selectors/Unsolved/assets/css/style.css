@@ -1,13 +1,14 @@
-/* TODO: Label selector type */
+/* TODO: Label selector type * - apply font to all items on page/
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
-/* TODO: Label selector type */
+/* TODO: Label selector type changing background color on body*/
 body {
   background-color: lemonchiffon;
 }
 
+/* changing width, height, line-height, color and background-color on header and footerrs */
 header,
 footer {
   width: 100%;
@@ -17,17 +18,18 @@ footer {
   background-color: #191970;
 }
 
+/* sets width and background color for figure which just contains an image */
 figure {
   width: 200px;
   background-color: #f0ead6;
 }
 
-/* TODO: Label selector type */
+/* TODO: Label selector type bolds the highlight text class which contains contact info */
 .highlighted-text {
   font-weight: bolder;
 }
 
-/* TODO: Label selector type */
+/* TODO: Label selector type sets background color for contact section*/
 #contact-section {
   background-color: #f0ead6;
 }
